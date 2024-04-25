@@ -1,0 +1,155 @@
+/* Custom CSS for Login Form */
+
+/* Container styling */
+.container {
+    padding: 20px;
+  }
+  
+  /* Heading section styling */
+  .heading-section {
+    color: #333;
+  }
+  
+  /* Login form wrap */
+  .login-wrap {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+    padding: 30px;
+  }
+  
+  /* Sign In heading styling */
+  .signin-form h3 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Social media icons styling */
+  .social-media .social-icon {
+    background-color: #007bff;
+    border-radius: 50%;
+    color: #fff;
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    margin-right: 10px;
+    text-align: center;
+    width: 40px;
+  }
+  
+  /* Form group styling */
+  .form-group {
+    position: relative;
+    margin-bottom: 20px;
+  }
+  
+  /* Input field styling */
+  .form-control {
+    border: none;
+    border-bottom: 1px solid #ddd;
+    border-radius: 0;
+    box-shadow: none;
+    padding: 10px 0;
+  }
+  
+  /* Label placeholder styling */
+  .form-control-placeholder {
+    color: #999;
+    font-size: 16px;
+    position: absolute;
+    top: 10px;
+    left: 0;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  /* Input field focus styling */
+  .form-control:focus {
+    border-color: #007bff;
+  }
+  
+  /* Input field focus for label placeholder */
+  .form-control:focus + .form-control-placeholder,
+  .form-control:not(:placeholder-shown) + .form-control-placeholder {
+    font-size: 12px;
+    top: -10px;
+  }
+  
+  /* Password field eye icon styling */
+  .field-icon {
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 0;
+  }
+  
+  /* Submit button styling */
+  .submit {
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  /* .submit:hover {
+    background-color: #0056b3;
+  } */
+  
+  /* Checkbox styling */
+.checkbox-wrap {
+    display: flex;
+    align-items: center;
+  }
+  
+  .checkbox-wrap input[type="checkbox"] {
+    display: none;
+  }
+  
+  .checkmark {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    background-color: #eee;
+    border: 1px solid #ddd;
+  }
+  
+  .checkmark:after {
+    content: "\2714";
+    font-size: 14px;
+    color: #007bff;
+    position: absolute;
+    top: 2px;
+    left: 3px;
+  }
+  
+  /* Remember Me text styling */
+  .checkbox-wrap label {
+    margin-left: 5px;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  
+  /* Forgot Password link styling */
+  .text-md-right a {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .text-md-right a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Sign Up link styling */
+  .text-center a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .text-center a:hover {
+    text-decoration: underline;
+  }
+  

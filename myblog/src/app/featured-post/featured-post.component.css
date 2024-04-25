@@ -1,5 +1,7 @@
-@media (max-width: 768px) {
-    .sidebar-col {
-      display: none !important; /* Hide the sidebar for screens smaller than 768px */
-    }
-  }
+/* featured-post.component.css */
+
+.featured-post-image {
+  max-width: 100%; /* Set maximum width to 100% of parent container */
+  max-height: 400px; /* Set maximum height to 200 pixels */
+  border-radius: 10px; /* Make the edges of the image round */
+}
