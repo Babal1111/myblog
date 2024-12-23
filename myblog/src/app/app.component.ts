@@ -7,13 +7,14 @@ import { RouterModule } from '@angular/router';
 import { routes } from './app.routes';
 import { FooterComponent } from "./footer/footer.component";
 import { FeaturedPostComponent } from "./featured-post/featured-post.component"; // Import routes from app.route.ts
+import { LoginFormComponent } from './login-form/login-form.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
-  imports: [RouterOutlet, HeaderComponent, BlogPostComponent, CommonModule, FooterComponent, FeaturedPostComponent]
+  imports: [RouterOutlet, HeaderComponent, BlogPostComponent, CommonModule, FooterComponent, FeaturedPostComponent,LoginFormComponent]
 })
 export class AppComponent {
   title = 'myblog';

@@ -5,3 +5,9 @@
   max-height: 400px; /* Set maximum height to 200 pixels */
   border-radius: 10px; /* Make the edges of the image round */
 }
+#blog-featured{
+  font-size: 24px; /* Adjust the font-size */
+  font-weight: bold;
+  color: #333; /* Adjust the color */
+  margin-bottom: 10px;
+}

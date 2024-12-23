@@ -1,8 +1,13 @@
 /* .list-group-item {
     border: none; /* Remove default border */
-  }
+  
   
   .list-group-item:hover {
     background-color: #f8f9fa; /* Change background color on hover */
   }
-   */
+  #Recommended_Topics{
+    font-size: 24px; /* Adjust the font-size */
+    font-weight: bold;
+    color: #333; /* Adjust the color */
+    margin-bottom: 10px;
+  }

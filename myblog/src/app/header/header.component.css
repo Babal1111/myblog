@@ -3,6 +3,8 @@
     background-color: #f8f9fa; /* Light gray background color */
     border-bottom: 1px solid #ddd; /* Gray border at the bottom */
     padding: 10px 0; /* Top and bottom padding */
+    position: fixed;
+    top: 0; width: 100%; z-index: 1000;
   }
   
   .navbar-brand {
